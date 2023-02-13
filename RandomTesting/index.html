@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- not check -->
+
+    <p class="p">numer 1</p>
+    <p class="p">numer 2</p>
+    <p class="p">numer 3</p>
+    <p class="p">numer 4</p>
+    <p class="p">numer 5</p>
+    <p>numer 6</p>
+
+    <!-- chain css -->
+    <div class="test test2"></div>
+    <div class="test test3"></div>
+    <div class="test"></div>
+
+    <!-- table collapse -->
+    <table>
+        <thead>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </thead>
+        <tbody>
+            <td colspan="3">tekst1</td>
+        </tbody>
+        <tfoot>
+            <td>end 1</td>
+            <td>end 2</td>
+            <td>end 3</td>
+        </tfoot>
+    </table>
+
+    <!-- borders -->
+
+    <div class="border border-style"></div>
+    <div class="border dotted"></div>
+    <div class="border dashed"></div>
+    <div class="border solid"></div>
+    <div class="border double"></div> <!-- not working -->
+    <div class="border groove"></div> <!-- not working -->
+    <div class="border ridge"></div> <!-- not working -->
+    <div class="border inset"></div> <!-- not working -->
+    <div class="border outset"></div> <!-- not working -->
+
+    <a href="#1">testing</a>
+    <a href="#2">testing</a>
+    <a href="#3">testing</a>
+    <a href="#4">testing</a>
+
+    <br><br><br><br><br>
+
+    <form action="get">
+        <input type="text" pattern="^[A-Za-z][A-Za-z0-9_-]{1,13}[A-Za-z0-9]$" required>
+        <input type="password" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,30}$" required>
+        <input type="email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+        <button type="submit">go</button>
+    </form>
+
+    <br>
+
+    <button class="apperance">TESTING</button>
+    <button class="apperance-none">TESTING</button>
+
+</body>
+
+</html>
