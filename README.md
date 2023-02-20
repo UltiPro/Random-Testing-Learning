@@ -1,4 +1,4 @@
 # Random-Testing-Learning
-Repository for testing/learning any functionalities in any language.
+Repository for testing/learning any functionalities in any language/technology.
 
-# Just tests nothing sepcial here :>
+# Nothing special to present :>
