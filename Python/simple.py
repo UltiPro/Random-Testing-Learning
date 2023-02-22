@@ -4,7 +4,7 @@ print("Hello world")
 
 
 def GetString():
-    return input("Podaj tekst")
+    return str(input("Podaj tekst"))
 
 
 def GetInt():
@@ -23,11 +23,11 @@ def GetFloat():
 
 
 # są to listy a nie tablice tak w gwoli ścisłości
-newlist = [2, 4, "tekst", 1_000_000]
+new_list = [2, 4, "tekst", 1_000_000]
 
-newlist.append(2_000_000)
+new_list.append(2_000_000)
 
-print(newlist.pop())  # pop zwraca element tak jak w wielu językach xd
+print(new_list.pop())  # pop zwraca element tak jak w wielu językach xd
 
 # print(newlist[-2]) #indeksy od tyłu
 
@@ -79,4 +79,20 @@ def fun1():
 
 # fun1()
 
-print("tekst 1 ","tekst 2","\ntekst 3")
+
+print("tekst 1 ", "tekst 2", "\ntekst 3")
+
+""" num = int(input("Liczba: "))
+
+if num == 2:
+    print(2)
+elif num == 3:
+    print(3)
+else:
+    print('nic') """
+
+print("Strings {} be {}".format("can", "insertable"))
+
+print("Strings {1} be {0}".format("insertable", "can"))
+
+print("Strings {var1} be {var2} , number {var3:d}".format(var2="insertable", var1="can", var3 = 69)) # :d :s jak w c
