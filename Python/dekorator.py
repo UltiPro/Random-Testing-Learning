@@ -1,10 +1,10 @@
 def todo(func):
-    def wrapper():
-        return func().upper()
+    def wrapper(*args, **keywords):
+        return func(*args, **keywords).upper()
     return wrapper
 
 @todo
-def foo():
-    return "bar"
+def foo(name):
+    return name
 
-print(todo())
+print(foo("cosiek"))
