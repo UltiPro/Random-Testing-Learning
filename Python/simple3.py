@@ -88,4 +88,10 @@ print(new_list2 == lists)
 
 print(new_list2 is lists)  # nie jest to ten sam obj :>
 
+for i in lists:
+    print(i)
+
+for i in range(0, len(lists)):
+    print(i)
+
 # i wiele innych metod, nie ma co się uczyć na pamke jest dokumentacja elo
