@@ -95,4 +95,5 @@ print("Strings {} be {}".format("can", "insertable"))
 
 print("Strings {1} be {0}".format("insertable", "can"))
 
-print("Strings {var1} be {var2} , number {var3:d}".format(var2="insertable", var1="can", var3 = 69)) # :d :s jak w c
+print("Strings {var1} be {var2} , number {var3:d}".format(
+    var2="insertable", var1="can", var3=69))  # :d :s jak w c
