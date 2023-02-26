@@ -37,6 +37,8 @@ print(napis2.islower())
 
 print(napis3.islower())
 
+print(napis1[5:-3])
+
 ### Są typy w pythonie jak w typescipt czy innych językach ###
 
 print("Typy", "-"*20)

@@ -78,8 +78,14 @@ print(zbior1 - zbior2)  # różnica
 print(zbior1.difference(zbior2))
 
 
+
+
 # jest jeszcze .update() .extend()
 
+
+
+
+# sety nie posiadają operatora [:] 
 
 ### funckja jako parametr , może być też domyślnym parametrem ###
 
