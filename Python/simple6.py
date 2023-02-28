@@ -1,6 +1,5 @@
 class DivideByZeroException(Exception):
     message = "źle lol"
-    pass
 
 
 try:
