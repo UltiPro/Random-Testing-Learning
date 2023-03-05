@@ -66,7 +66,7 @@ def donothing():
     pass
 
 
-def todosmth(a=5):  # domyślny parametr nie może być funkcją
+def todosmth(a=5):
     return a ** 2
 
 

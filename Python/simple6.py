@@ -1,3 +1,5 @@
+import queue
+
 class DivideByZeroException(Exception):
     message = "źle lol"
 
@@ -24,3 +26,6 @@ finally:
 string = "dupa"
 
 # string[2] = 'c' ### ERROR
+
+q = queue()
+

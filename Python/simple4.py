@@ -77,13 +77,9 @@ print(zbior1 - zbior2)  # różnica
 
 print(zbior1.difference(zbior2))
 
+zbior1.update(zbior2)
 
-
-
-# jest jeszcze .update() .extend()
-
-
-
+print(zbior1)
 
 # sety nie posiadają operatora [:] 
 
