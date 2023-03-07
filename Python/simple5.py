@@ -81,3 +81,20 @@ print(list3)  # dictionary
 list4 = [el * 2 for el in list1 if el % 3 == 0]
 
 print(list4)
+
+list5 = [el + 1 if el > 3 else el + 2 for el in list1]
+
+print(list5)
+
+# enumerate
+
+values = ["Tak", "Nie", "Nie wiem"]
+
+for values, idx in enumerate(values, 0):
+    print(values, idx)
+
+arr1 = [1, 2, 3]
+arr2 = [1, 2, 3]
+
+print(arr1 == arr2)
+print(arr1 is arr2)

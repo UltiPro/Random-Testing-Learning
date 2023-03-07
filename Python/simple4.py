@@ -81,9 +81,10 @@ zbior1.update(zbior2)
 
 print(zbior1)
 
-# sety nie posiadają operatora [:] 
+# sety nie posiadają operatora [:]
 
 ### funckja jako parametr , może być też domyślnym parametrem ###
+
 
 def cosiek():
     print("dupa")
