@@ -43,11 +43,11 @@ q2 = deque(["Tak", "Nie", "Osiem"])
 
 print(q2.pop())
 
-f1 = frozenset(["Tak","Tak","Nie"])
+f1 = frozenset(["Tak", "Tak", "Nie"])
 
 print(f1)
 
-### string
+# string
 
 stringek = "     Dupa    jakaś    "
 
@@ -55,14 +55,18 @@ print(stringek.strip())
 
 print(stringek.find("Dupa"))
 
-del(stringek) # usuwa całkowicie zmienną (obiekt)
+del (stringek)  # usuwa całkowicie zmienną (obiekt)
 
-### print(stringek)
+# print(stringek)
 
-print(all([True,True,False,True]))
+print(all([True, True, False, True]))
 
-print(all([True,True,True,True]))
+print(all([True, True, True, True]))
 
-print(any([True,True,False,True]))
+print(any([True, True, False, True]))
 
-print(any([False,False,False,False]))
+print(any([False, False, False, False]))
+
+arr1 = [1, 2, 3, 4, 5]
+
+print(arr1[::-1])
