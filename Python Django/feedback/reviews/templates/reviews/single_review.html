@@ -1,10 +1,12 @@
 {% extends 'reviews/base.html' %}
 
 {% block doc_title %}
-TY
+Single review
 {% endblock %}
 
 {% block doc_content %}
-TY
-{{ message }}
+        <h1>
+            {{ review.user_name }}
+            {{ revie.rating }}
+        </h1>
 {% endblock %}
