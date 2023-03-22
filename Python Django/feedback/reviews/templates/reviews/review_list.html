@@ -6,7 +6,7 @@ All Reviews
 
 {% block doc_content %}
     <ul>
-        {% for review in reviews %}
+        {% for review in reviews %} <!-- object_list -->
             <li>{{ review.user_name }} (Rating: {{ review.rating }})
         {% endfor %}
     </ul>
