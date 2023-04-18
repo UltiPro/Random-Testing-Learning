@@ -1,0 +1,99 @@
+Flags:
+
+    i => ignore case (lower upper)
+
+    g => global search
+
+    m => multiline
+
+    u => unicode
+
+    y => sticky => The expression will only match from its lastIndex position and ignores the global (g) flag.
+
+    s => dotall => Dot (.) will match any character, including newline.
+
+Symbols:
+
+    \ escape character
+
+    * 0 or more chars
+
+    + 1 or more chars
+
+    ? 0 or 1 chars
+
+    \w word => a b c d
+
+    \W not word => ! @ # $
+
+    \d digits => 1 2 3 4
+
+    \D not digits => a b c d
+
+    \t tab
+
+    \n line feed
+
+    \v vertical tab
+
+    \f form feed
+
+    \r carriage return
+
+    \0 null
+
+    . any character
+
+    [] any character from inside => [abc]
+
+    [^] not character from inside => [^abc]
+
+    [\s\S] any character 
+
+    () group => (abc)
+
+    (?<name>ABC) named group # commonly not supported
+
+    ^ matches beginning of the string => ^abc
+
+    & matech ending of the string => abc$
+
+    | alternation => a|b
+
+    \s whitespace, tabs, line breaks
+
+    (?:) no capture group => (?:ha)+ => hahaha haa hah! (hahaha ha ha)
+
+    \b word bundary => t\b => tes(t)
+
+    \B not word bundary =>  t\B =< (t)est
+
+    \number numeric reference => (abc)\1 => abcabc
+
+    (?=) Positive lookahead => \d(?=px) 1pt (2)px
+
+    (?<=ABC) Matches a group before the main expression without including it in the result.
+
+    (?!) Positive lookahead => \d(?!px) (1)pt 2px
+
+    (?<!ABC) Specifies a group that can not match before the main expression.
+
+    b\w+? (?) Lazy match as few characters as possible => b (be) (be)e (be)er (be)ers
+
+    \p unicode category
+
+    \P not unicode category
+
+Other:
+
+    $& match
+
+    $1 &2 &3 capture group
+
+    $` before match
+
+    $' after match
+
+    $$ escaped $
+
+    \n escaped character
