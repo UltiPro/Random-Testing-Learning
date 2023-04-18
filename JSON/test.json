@@ -1,0 +1,15 @@
+{
+    "string": "tekst",
+    "number": 2,
+    "boolean": true,
+    "array": [
+        1,
+        2,
+        3,
+        "tekst"
+    ],
+    "object": {
+        "name": "Jhon",
+        "age": 30
+    }
+}
