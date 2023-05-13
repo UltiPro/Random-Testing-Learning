@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfControlsTextBox"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="MainWindow" Height="250" Width="400">
+    <StackPanel>
+        <TextBox FontSize="32" Margin="16" AcceptsReturn="True" TextWrapping="Wrap"/>
+        <TextBox FontSize="32" Margin="16" AcceptsReturn="True" TextWrapping="NoWrap" SpellCheck.IsEnabled="True" Language="pl-PL" Background="AliceBlue" Foreground="Red" Text="Hello" IsReadOnly="True"/>
+    </StackPanel>
 </Window>
