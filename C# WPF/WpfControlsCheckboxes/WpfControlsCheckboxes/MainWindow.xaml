@@ -8,14 +8,14 @@
         Title="MainWindow" Height="250" Width="400">
     <StackPanel>
         <Label FontWeight="Bold">Tapoings</Label>
-        <CheckBox x:Name="cbParent" IsThreeState="True" Checked="cbParent_Checked"></CheckBox>
-        <CheckBox x:Name="Checkbox1" VerticalContentAlignment="Center" Checked="Checked" Unchecked="UnChecked" Margin="15">
+        <CheckBox x:Name="cbParent" IsThreeState="True" Checked="cbParent_Checked" Unchecked="cbParent_Checked"></CheckBox>
+        <CheckBox x:Name="Checkbox1" VerticalContentAlignment="Center" Checked="Checked" Unchecked="Checked" Margin="15">
             <WrapPanel>
                 <Image Source="https://picsum.photos/200" Width="30"></Image>
                 <Label x:Name="lb1">Extra cheese 1</Label>
             </WrapPanel>
         </CheckBox>
-        <CheckBox x:Name="Checkbox2" Margin="15" Checked="Checked" Unchecked="UnChecked">Extra cheese 2</CheckBox>
-        <CheckBox x:Name="Checkbox3" Margin="15" Checked="Checked" Unchecked="UnChecked">Extra cheese 3</CheckBox>
+        <CheckBox x:Name="Checkbox2" Margin="15" Checked="Checked" Unchecked="Checked">Extra cheese 2</CheckBox>
+        <CheckBox x:Name="Checkbox3" Margin="15" Checked="Checked" Unchecked="Checked">Extra cheese 3</CheckBox>
     </StackPanel>
 </Window>

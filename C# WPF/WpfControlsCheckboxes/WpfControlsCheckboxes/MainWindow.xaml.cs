@@ -45,12 +45,15 @@ namespace WpfControlsCheckboxes
 
         private void Checked(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void UnChecked(object sender, RoutedEventArgs e)
-        {
-
+            cbParent.IsChecked = null;
+            if(Checkbox1.IsChecked == true && Checkbox2.IsChecked == true && Checkbox3.IsChecked == true)
+            {
+                cbParent.IsChecked = true;
+            }
+            if (Checkbox1.IsChecked == false && Checkbox2.IsChecked == false && Checkbox3.IsChecked == false)
+            {
+                cbParent.IsChecked = false;
+            }
         }
     }
 }
