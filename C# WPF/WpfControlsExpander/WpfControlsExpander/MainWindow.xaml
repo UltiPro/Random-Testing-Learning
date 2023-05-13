@@ -6,7 +6,21 @@
         xmlns:local="clr-namespace:WpfControlsExpander"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <StackPanel>
+        <Expander Expanded="Expander_Expanded">
+            <Expander.Header>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="https://picsum.photos/200" Width="50"></Image>
+                    <TextBlock VerticalAlignment="Center">Click to Expand and to hide bla bla</TextBlock>
+                </StackPanel>
+            </Expander.Header>
+            <StackPanel>
+                <Button>click</Button>
+                <DatePicker></DatePicker>
+                <TextBlock TextWrapping="Wrap" FontSize="20">
+                Lorem ipsum dolor sit ament
+                </TextBlock>
+            </StackPanel>
+        </Expander>
+    </StackPanel>
 </Window>

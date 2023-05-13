@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfControlsExpander
+namespace WpfPanelsGrid
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,11 +23,6 @@ namespace WpfControlsExpander
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void Expander_Expanded(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("tak");
         }
     }
 }
