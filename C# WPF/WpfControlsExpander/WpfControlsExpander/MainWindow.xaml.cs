@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfControlsDatePicker
+namespace WpfControlsExpander
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,15 +23,6 @@ namespace WpfControlsDatePicker
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void DatePicker_SelectedDateChanged(object sender, SelectionChangedEventArgs e)
-        {
-            if((sender as DatePicker).SelectedDate != null)
-            {
-                string mydate = (sender as DatePicker).SelectedDate.ToString();
-                MessageBox.Show("Date has been changed to" + mydate);
-            }
         }
     }
 }

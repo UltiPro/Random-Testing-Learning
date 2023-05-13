@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <DatePicker
+            SelectedDate="09/27/2023"
+            SelectedDateFormat="Long"
+            SelectedDateChanged="DatePicker_SelectedDateChanged"
+            >
+            <DatePicker.BlackoutDates>
+                <CalendarDateRange Start="09/28/2023" End="09/29/2023"></CalendarDateRange>
+            </DatePicker.BlackoutDates>
+        </DatePicker>
     </Grid>
 </Window>
