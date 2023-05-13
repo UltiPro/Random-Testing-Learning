@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfControlsCalendar
+namespace WpfControlsDatePicker
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,15 +23,6 @@ namespace WpfControlsCalendar
         public MainWindow()
         {
             InitializeComponent();
-            myTextBlock.Text = myCalendar.SelectedDate.ToString();
-        }
-
-        private void myCalendar_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
-        {
-            if(myTextBlock != null)
-            {
-                myTextBlock.Text = myCalendar.SelectedDate.ToString();
-            }
         }
     }
 }

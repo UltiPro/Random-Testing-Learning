@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfControlsCalendar"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="MainWindow" Height="450" Width="400">
+    <StackPanel>
+        <Viewbox Stretch="Uniform">
+            <Calendar 
+                x:Name="myCalendar"
+                SelectedDate="01.01.2020"
+                SelectedDatesChanged="myCalendar_SelectedDatesChanged"
+                DisplayMode="Month"
+                >
+                <Calendar.BlackoutDates>
+                    <CalendarDateRange Start="03.05.2020" End="04.22.2020"/>
+                </Calendar.BlackoutDates>
+            </Calendar>
+        </Viewbox>
+        <TextBlock x:Name="myTextBlock"></TextBlock>
+    </StackPanel>
 </Window>
