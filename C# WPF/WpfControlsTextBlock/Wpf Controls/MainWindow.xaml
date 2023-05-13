@@ -1,0 +1,28 @@
+﻿<Window x:Class="Wpf_Controls.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Controls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="400">
+    <StackPanel>
+        <TextBlock x:Name="mytexxblock">
+            Hello <Bold>world</Bold>! and hello <Italic>you</Italic>
+            <LineBreak/>
+            Hello again, go to <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://www.google.com">google</Hyperlink>
+        </TextBlock>
+        <TextBlock TextTrimming="WordEllipsis">
+            Lorem ipsum dolor sit ament, ................dwadawdwad.aw.dawd.awd.aw.daw.d.wad.awd.aw.d.wd
+        </TextBlock>
+        <TextBlock TextTrimming="CharacterEllipsis">
+            Lorem ipsum dolor sit ament, ................dwadawdwad.aw.dawd.awd.aw.daw.d.wad.awd.aw.d.wdfesfesfsef
+        </TextBlock>
+        <TextBlock TextWrapping="Wrap">
+            Lorem ipsum dolor sit ament, ................dwadawdwad.aw.dawd.awd.aw.daw.d.wad.awd.aw.d.wdfefsefesfsef
+        </TextBlock>
+        <TextBlock TextWrapping="WrapWithOverflow" Foreground="Aqua">
+            Loremipsumdolorsitament,................<Span Foreground="Black">dwadawdwad</Span>.aw.dawd.awd.aw.daw.d.wad.awd.aw.d.wddwadwadawdawdawdawdaw
+        </TextBlock>
+    </StackPanel>
+</Window>

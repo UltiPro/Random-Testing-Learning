@@ -1,0 +1,21 @@
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\bin\Debug\net6.0-windows\Wpf Controls.exe
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\bin\Debug\net6.0-windows\Wpf Controls.deps.json
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\bin\Debug\net6.0-windows\Wpf Controls.runtimeconfig.json
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\bin\Debug\net6.0-windows\Wpf Controls.dll
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\bin\Debug\net6.0-windows\Wpf Controls.pdb
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\obj\Debug\net6.0-windows\Wpf Controls.csproj.AssemblyReference.cache
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\obj\Debug\net6.0-windows\App.g.cs
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\obj\Debug\net6.0-windows\Wpf Controls_MarkupCompile.cache
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\obj\Debug\net6.0-windows\Wpf Controls_MarkupCompile.lref
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\obj\Debug\net6.0-windows\MainWindow.baml
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\obj\Debug\net6.0-windows\Wpf Controls.g.resources
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\obj\Debug\net6.0-windows\Wpf Controls.GeneratedMSBuildEditorConfig.editorconfig
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\obj\Debug\net6.0-windows\Wpf Controls.AssemblyInfoInputs.cache
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\obj\Debug\net6.0-windows\Wpf Controls.AssemblyInfo.cs
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\obj\Debug\net6.0-windows\Wpf Controls.csproj.CoreCompileInputs.cache
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\obj\Debug\net6.0-windows\Wpf Controls.dll
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\obj\Debug\net6.0-windows\refint\Wpf Controls.dll
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\obj\Debug\net6.0-windows\Wpf Controls.pdb
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\obj\Debug\net6.0-windows\Wpf Controls.genruntimeconfig.cache
+D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\Wpf Controls\Wpf Controls\obj\Debug\net6.0-windows\ref\Wpf Controls.dll
