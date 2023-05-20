@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <StackPanel>
+            <local:UserControl1 HorizontalContentAlignment="Center" x:Name="ValueController"></local:UserControl1>
+        </StackPanel>
     </Grid>
 </Window>

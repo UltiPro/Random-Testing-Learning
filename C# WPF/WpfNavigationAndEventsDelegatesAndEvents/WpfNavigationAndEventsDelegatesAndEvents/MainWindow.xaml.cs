@@ -23,6 +23,12 @@ namespace WpfNavigationAndEventsDelegatesAndEvents
         public MainWindow()
         {
             InitializeComponent();
+            ValueController.MinThresHoldReached += ValueController_MinThresholdReached;
+        }
+
+        private void ValueController_MinThresholdReached(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Minimum value reached!");
         }
     }
 }
