@@ -28,6 +28,9 @@ namespace WpfNavigationAndEventsSimpleNavigation
             page1 = new Page1();
             page2 = new Page2();
             InitializeComponent();
+
+            //page2.funkcjazestrony += metoda tutaj co ma zrobić po kliknięciu na page 2 guzika;
+            // w skrócie delegat tylko na page 2 musi być to jako delegat ten funckazestrony page2
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
