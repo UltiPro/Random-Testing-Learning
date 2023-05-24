@@ -1,5 +1,5 @@
 ﻿WpfMVCandUC
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\3. PROJEKTY\Random-Testing-Learning\C# WPF\WpfMVCandUC\WpfMVCandUC\App.xaml
 3-614768440
 
-71767427494
+5-295955803
 1941709816142
 MainWindow.xaml;PostLikedBy.xaml;PostOperationsUC.xaml;
 
-True
+False
 

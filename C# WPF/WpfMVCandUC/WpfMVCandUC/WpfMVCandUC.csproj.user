@@ -7,7 +7,21 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="PostLikedBy.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PostOperationsUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PostLikedBy.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PostOperationsUC.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

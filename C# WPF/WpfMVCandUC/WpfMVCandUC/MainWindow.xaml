@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:WpfMVCandUC"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <StackPanel>
+        <local:PostOperationsUC Height="40"></local:PostOperationsUC>
+        <local:PostLikedBy></local:PostLikedBy>
+    </StackPanel>
 </Window>
