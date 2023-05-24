@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:WpfSpeechSynthesiser"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <StackPanel>
+        <TextBox x:Name="MainTextBox" Height="30" FontSize="18"></TextBox>
+        <Button Height="30" Content="Speak" Click="Button_Click"></Button>
+    </StackPanel>
 </Window>

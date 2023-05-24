@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Speech.Synthesis;
 
 namespace WpfSpeechSynthesiser
 {
@@ -20,9 +21,18 @@ namespace WpfSpeechSynthesiser
     /// </summary>
     public partial class MainWindow : Window
     {
+        private SpeechSynthesizer speechSynthesizer;
         public MainWindow()
         {
             InitializeComponent();
+            speechSynthesizer = new SpeechSynthesizer();
+            speechSynthesizer.Volume = 50;
+            speechSynthesizer.Rate = 0;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            speechSynthesizer.Speak(MainTextBox.Text);
         }
     }
 }
