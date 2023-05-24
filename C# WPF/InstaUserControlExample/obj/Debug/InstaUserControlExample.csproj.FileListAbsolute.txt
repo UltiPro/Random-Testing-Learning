@@ -1,0 +1,75 @@
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\bin\Debug\InstaUserControlExample.exe.config
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\bin\Debug\InstaUserControlExample.exe
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\bin\Debug\InstaUserControlExample.pdb
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\InstaUserControlExample.csprojAssemblyReference.cache
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\MainWindow.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\PostOperations.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\App.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\InstaUserControlExample_MarkupCompile.cache
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\InstaUserControlExample_MarkupCompile.lref
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\MainWindow.baml
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\PostOperations.baml
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\InstaUserControlExample.g.resources
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\InstaUserControlExample.Properties.Resources.resources
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\InstaUserControlExample.csproj.GenerateResource.cache
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\InstaUserControlExample.csproj.CoreCompileInputs.cache
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\InstaUserControlExample.exe
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\InstaUserControlExample.pdb
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\PostLikedBy.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\PostLikedBy.baml
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\PicturePost.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\PicturePost.baml
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\VideoPost.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\InstaUserControlExample_Content.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaUserControlExample\obj\Debug\VideoPost.baml
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\bin\Debug\InstaUserControlExample.exe.config
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\bin\Debug\InstaUserControlExample.exe
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\bin\Debug\InstaUserControlExample.pdb
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\InstaUserControlExample.csprojAssemblyReference.cache
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\MainWindow.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\PicturePost.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\PostLikedBy.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\PostOperations.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\VideoPost.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\App.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\InstaUserControlExample_Content.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\InstaUserControlExample_MarkupCompile.cache
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\InstaUserControlExample_MarkupCompile.lref
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\MainWindow.baml
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\PicturePost.baml
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\PostLikedBy.baml
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\PostOperations.baml
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\VideoPost.baml
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\InstaUserControlExample.g.resources
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\InstaUserControlExample.Properties.Resources.resources
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\InstaUserControlExample.csproj.GenerateResource.cache
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\InstaUserControlExample.csproj.CoreCompileInputs.cache
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\InstaUserControlExample.exe
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\5.InstaUserControlExample - Infinate Scrolling\InstaUserControlExample\obj\Debug\InstaUserControlExample.pdb
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\InstaUserControlExample.csprojAssemblyReference.cache
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\MainWindow.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\PicturePost.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\PostLikedBy.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\PostOperations.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\VideoPost.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\App.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\InstaUserControlExample_Content.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\InstaUserControlExample_MarkupCompile.cache
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\InstaUserControlExample_MarkupCompile.lref
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\InstaUserControlExample.exe
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\InstaUserControlExample.pdb
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\bin\Debug\InstaUserControlExample.exe.config
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\bin\Debug\InstaUserControlExample.exe
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\bin\Debug\InstaUserControlExample.pdb
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\MainWindow.baml
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\PicturePost.baml
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\PostLikedBy.baml
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\PostOperations.baml
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\VideoPost.baml
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\InstaUserControlExample.g.resources
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\InstaUserControlExample.Properties.Resources.resources
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\InstaUserControlExample.csproj.GenerateResource.cache
+C:\Users\Gzen\Developer\Denis Videos\WPF-Masterclass-App-Mahapps\Demos\InstaBook\6.InstaUserControlExample - Finishing Touches\InstaUserControlExample\obj\Debug\InstaUserControlExample.csproj.CoreCompileInputs.cache
