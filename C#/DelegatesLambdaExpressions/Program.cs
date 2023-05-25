@@ -35,6 +35,8 @@ namespace Delegates
                 if(p.Name.Contains(searchKeyword) && p.Age > 20) return true;
                 else return false;
             });
+
+            DisplayPeople("exactly 25:", people, p => p.Age == 25);
         }
 
         public static void DisplayPeople(string title, List<Person> people, FilterDelegate filter)

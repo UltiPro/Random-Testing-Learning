@@ -1,0 +1,7 @@
+Func<int, int> PlusOne = (a) => a+1;
+# this function gets an int argument and returns another int
+# You can have a return or not. And you can have no argument or have multiple. 
+ 
+# it is the way you can call this function
+int res = PlusOne(3);
+# res = 4
