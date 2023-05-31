@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.box-green{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.box-blue{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
