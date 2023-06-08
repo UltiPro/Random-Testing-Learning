@@ -36,4 +36,7 @@ $(function () {
             alert("work");
         });
     */
+
+    // .stop() blokuje animacje na zdarzeniach !!! jak wyjdziesz myszką np na hoverze 
+    // to nie konczy się animacja tylko wykonuje inna
 });
