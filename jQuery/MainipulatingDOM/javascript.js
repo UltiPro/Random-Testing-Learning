@@ -56,4 +56,43 @@ $(function () {
     console.log($("input:text").css("background-color")); // pobiera css value
 
     $("input:text").css("width", "+=200px"); //można dodawać wartosci
+
+    var properties = $("input:text").css(["background-color", "width"]); // wiele właściwości 
+    console.log(properties);
+    console.log(properties["width"]);
+
+    $("input:text").css("width", function() { // funkcje też mogą być
+        return "+=10px";
+    });
+
+    // css classes
+
+    $("h2").addClass("bg-royalblue"); // dodaje klase, można też dodać wiele klas oraz wiele elementów może zostać wybranych
+
+    $("h2").addClass(function(index, currentClass) { // currentClass -> istniejące klasy w elemencie
+
+    });
+
+    $("h3").addClass("bg-royalblue");
+
+    $("h3").removeClass("bg-royalblue"); // usuwa klase oraz tak jak wyżej
+
+    // data of element
+
+    var data = ["tak","tak2","tak3"];
+    $("h4").data("dataAvaliable", data); // dodaje data o podanej nazwie
+    console.log($("h4").data("dataAvaliable"));
+
+    $("h4").removeData("dataAvaliable"); // usuwa data o podanej nazwie
+    console.log($("h4").data("dataAvaliable"));
+
+    // changing content
+
+    console.log($("h4").html()); // zawiera html
+    console.log($("h4").text()); //zawiera sam tekst
+
+    $("h3").html("<strong>Hello world</strong>");
+    $("h2").text("<strong>Hello world</strong>");
+
+    $("h3").html($("h3").html() + "<strong>Hello world</strong>"); // append
 });
