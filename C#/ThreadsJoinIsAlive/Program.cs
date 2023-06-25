@@ -51,7 +51,16 @@ static void Thread2Fun()
 
 int x = 69;
 
+async void Do(){
+    await Task.Run(async () => {
+        thread1.Join();
+    });
+    Console.WriteLine("Done");
+}
+
 Task.Run(()=>{ // async programing 
     Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
     Console.WriteLine(x);
 });
+
+Do();
