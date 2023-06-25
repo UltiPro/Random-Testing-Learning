@@ -63,4 +63,11 @@ Task.Run(()=>{ // async programing
     Console.WriteLine(x);
 });
 
+await Task.Run(()=>{
+    Thread.Sleep(10000);
+    Console.WriteLine("tak2");
+});
+
+Console.WriteLine("tak");
+
 Do();
