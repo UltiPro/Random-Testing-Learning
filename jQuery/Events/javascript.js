@@ -23,4 +23,26 @@ $(function () {
     $("#btn2").on("click keydown", function (event) { // klik inaczej, oraz wiele method na raz
         alert("click");
     });
+
+    function LogEvent() {
+        console.log("this works for Log event");
+    }
+
+    $("#btn3").on("click", LogEvent);
+
+    // delegated events
+
+    $("body").on("click", "h1", function() {
+        $(this).css("background-color", "rgba(120,120,160,0.8)");
+        $("body").append("<h1>tak</h1>");
+    });
+
+    // passing data
+
+    $("#btn4").click({
+        name: "Patrick",
+        age: 23
+    }, function(event) {
+        console.log(event.data);
+    })
 });
