@@ -44,5 +44,44 @@ $(function () {
         age: 23
     }, function(event) {
         console.log(event.data);
+    });
+
+    // key down/up events // keypress has no official documentation
+
+    $("html").keydown(function(event){
+        console.log(event.which);
     })
+
+    // focus & blur events
+
+    const inputs = $("input:text");
+    inputs.focus(function (){
+        $(this).css("background", "royalblue");
+    });
+
+    inputs.blur(function (){
+        $(this).css("background", "white");
+    });
+
+    // change events
+
+    const checkboxes = $("input:checkbox");
+    checkboxes.change(function (){
+        const ischecked = $(this).is(":checked"); // .prop("checked");
+        if(ischecked){
+            $("label").css("color", "green");
+        }
+        else
+        {
+            $("label").css("color", "black");
+        }
+    });
+
+    // submit event
+
+    $("form").submit(function (event){
+        event.preventDefault();
+        window.alert("tak!");
+    });
+
 });
