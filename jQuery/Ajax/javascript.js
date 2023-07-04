@@ -27,5 +27,7 @@ $(function () {
         });
     }).fail(function (){
         alert("ajax failed");
+    }).always(function() {
+        alert("git");
     });
 });
