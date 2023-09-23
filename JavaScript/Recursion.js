@@ -1,10 +1,8 @@
 function powerOf(x, n) {
-
     // if (n === 1) {
     //   return x;
     // }
     // return x * powerOf(x, n - 1);
-
     return n === 1 ? x : x * powerOf(x, n - 1);
 }
 
@@ -37,16 +35,13 @@ const myself = {
 
 function getFriendNames(person) {
     const collectedNames = [];
-
     if (!person.friends) {
         return [];
     }
-
     for (const friend of person.friends) {
         collectedNames.push(friend.name);
         collectedNames.push(...getFriendNames(friend));
     }
-
     return collectedNames;
 }
 

@@ -2,7 +2,6 @@ function createTaxCalculator(tax) {
     function calculateTax(amount) {
         return amount * tax;
     }
-
     return calculateTax;
 }
 
