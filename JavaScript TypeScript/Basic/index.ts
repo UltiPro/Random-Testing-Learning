@@ -39,7 +39,7 @@ const person2 = {
     hobbies: ["Sports", "Cooking"]
 }
 
-for(const hobby of person2.hobbies){
+for (const hobby of person2.hobbies) {
     console.log(hobby.toUpperCase());
 }
 

@@ -100,6 +100,8 @@ let combinedvar4: (a: number, b: number) => number; // tak jak wyżej tylko z pa
 
 //combinedvar4 = combine3; //error
 
+//Callback 
+
 function AddAndHandle(n1: number, n2: number, cb: (n: number) => void) {
     const res = n1 + n2;
     cb(res);
@@ -112,7 +114,7 @@ AddAndHandle(5, 10, (res) => {
 // Unknown type
 
 let userinput: unknown;
-let testing: string
+let testing: string;
 let userinput2: any;
 
 userinput = 5;
@@ -121,5 +123,19 @@ userinput = "Rick";
 //testing = userinput;// nie zadziała ponieważ unknow 
 //zabrania użyciu do okreśonych zmiennych w tym przypadku string
 
-testing = userinput2; // to już zadziała dla any , nie dal unknown
+testing = userinput2; // to już zadziała dla any , nie dla unknown
 
+if (typeof userinput === "string") { //tutaj jest sprawdzenie wiec zadziała
+    testing = userinput;
+}
+
+// Never type
+
+function GenerateError(message: string, code: number): never {
+    //never bo przez throw nigdy nic nie zwróci
+    throw { message: message, errorCode: code };
+    // while(true) {}
+}
+
+const res = GenerateError("Tak działa", 404);
+console.log(res);
