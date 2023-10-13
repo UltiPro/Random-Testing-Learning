@@ -4,7 +4,7 @@ using CountryNamespace;
 
 namespace APIContext;
 
-class API : DbContext
+public class API : DbContext
 {
     public API(DbContextOptions<API> options) : base(options)
     {
