@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using APIContext;
 using Microsoft.Extensions.Options;
 using entityf.Configurations;
+using entityf.Contracts;
+using entityf.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +27,9 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddAutoMapper(typeof(MapperConfiguration));
+
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped<ICountriesRepository, CountriesRepository>();
 
 var app = builder.Build();
 

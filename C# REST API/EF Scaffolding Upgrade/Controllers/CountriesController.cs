@@ -9,6 +9,7 @@ using APIContext;
 using CountryNamespace;
 using entityf.Models.Country;
 using AutoMapper;
+using entityf.Contracts;
 
 namespace entityf.Controllers
 {
@@ -16,20 +17,20 @@ namespace entityf.Controllers
     [ApiController]
     public class CountriesController : ControllerBase
     {
-        private readonly API _context;
         private readonly IMapper mapper;
+        private readonly ICountriesRepository countriesRepository;
 
-        public CountriesController(API context, IMapper mapper)
+        public CountriesController(IMapper mapper, ICountriesRepository countriesRepository)
         {
-            _context = context;
             this.mapper = mapper;
+            this.countriesRepository = countriesRepository;
         }
 
         // GET: api/Countries
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Country>>> GetCountries()
         {
-            var countries = await _context.Countries.ToListAsync();
+            var countries = await countriesRepository.GetAllAsync();
             var records = mapper.Map<List<GetCountry>>(countries);
             return Ok(records);
         }
@@ -38,7 +39,7 @@ namespace entityf.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Country>> GetCountry(int id)
         {
-            var country = await _context.Countries.Include(q => q.Hotels).FirstOrDefaultAsync(q => q.CountryId == id);
+            var country = await countriesRepository.GetDetails(id);
 
             if (country == null)
             {
@@ -62,7 +63,7 @@ namespace entityf.Controllers
 
             //_context.Entry(country).State = EntityState.Modified;
 
-            var country2 = await _context.Countries.FindAsync(id);
+            var country2 = await countriesRepository.GetAsync(id);
 
             if(country2 == null)
             {
@@ -73,11 +74,11 @@ namespace entityf.Controllers
 
             try
             {
-                await _context.SaveChangesAsync();
+                await countriesRepository.UpdateAsync(country2);
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!CountryExists(id))
+                if (CountryExists(id) is null)
                 {
                     return NotFound();
                 }
@@ -103,8 +104,7 @@ namespace entityf.Controllers
 
             var countryToCreate = mapper.Map<Country>(country);
 
-            _context.Countries.Add(countryToCreate);
-            await _context.SaveChangesAsync();
+            await countriesRepository.AddAsync(countryToCreate);
 
             return CreatedAtAction("GetCountry", new { id = countryToCreate.CountryId }, countryToCreate);
         }
@@ -113,21 +113,21 @@ namespace entityf.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCountry(int id)
         {
-            var country = await _context.Countries.FindAsync(id);
+            var country = await countriesRepository.GetAsync(id);
+
             if (country == null)
             {
                 return NotFound();
             }
 
-            _context.Countries.Remove(country);
-            await _context.SaveChangesAsync();
+            await countriesRepository.DeleteAsync(id);
 
             return NoContent();
         }
 
-        private bool CountryExists(int id)
+        private async Task<bool> CountryExists(int id)
         {
-            return _context.Countries.Any(e => e.CountryId == id);
+            return await countriesRepository.Exists(id);
         }
     }
 }
