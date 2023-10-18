@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using CountryNamespace;
+using entityf.Data;
+using entityf.Data.Users;
 using entityf.Models.Country;
 using entityf.Models.Hotels;
 using HotelNamespace;
@@ -15,6 +17,8 @@ namespace entityf.Configurations
             CreateMap<Country, GetCountryDetails>().ReverseMap();
             CreateMap<Country, UpdateCountry>().ReverseMap();
             CreateMap<Hotel, GetHotel>().ReverseMap();
+
+            CreateMap<ApiUserReg, APIUser>().ReverseMap();
         }
     }
 }

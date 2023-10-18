@@ -3,6 +3,7 @@ using HotelNamespace;
 using CountryNamespace;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using entityf.Data;
+using entityf.Data.Configurations;
 
 namespace APIContext;
 
@@ -18,17 +19,8 @@ public class API : IdentityDbContext<APIUser>
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-        modelBuilder.Entity<Country>().HasData(new Country
-        {
-            CountryId = 1,
-            Name = "United States Of America",
-            ShortName = "USA",
-        }, new Country
-        {
-            CountryId = 2,
-            Name = "Poland",
-            ShortName = "PL",
-        });
+        modelBuilder.ApplyConfiguration(new RoleConfiguration());
+        modelBuilder.ApplyConfiguration(new CountryConfiguration());
         modelBuilder.Entity<Hotel>().HasData(new Hotel
         {
             HotelId = 1,
