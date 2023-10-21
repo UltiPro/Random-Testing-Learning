@@ -11,6 +11,7 @@ using entityf.Models.Country;
 using AutoMapper;
 using entityf.Contracts;
 using Microsoft.AspNetCore.Authorization;
+using entityf.Models;
 
 namespace entityf.Controllers
 {
@@ -28,13 +29,21 @@ namespace entityf.Controllers
             this.countriesRepository = countriesRepository;
         }
 
-        // GET: api/Countries
-        [HttpGet]
+        // GET: api/Countries/GetAll
+        [HttpGet("GetAll")]
         public async Task<ActionResult<IEnumerable<Country>>> GetCountries()
         {
             var countries = await countriesRepository.GetAllAsync();
             var records = mapper.Map<List<GetCountry>>(countries);
             return Ok(records);
+        }
+
+        // GET: api/Countries/?itedanezklasyuknow
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Country>>> GetPagedCountries([FromQuery] QueryParameters queryParameters)
+        {
+            var pagedResult = await countriesRepository.GetAllAsync<GetCountry>(queryParameters);
+            return Ok(pagedResult);
         }
 
         // GET: api/Countries/5

@@ -1,5 +1,8 @@
 ﻿using APIContext;
+using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using entityf.Contracts;
+using entityf.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace entityf.Repository
@@ -7,10 +10,12 @@ namespace entityf.Repository
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         private readonly API _context;
+        private readonly IMapper mapper;
 
-        public GenericRepository(API context)
+        public GenericRepository(API context, IMapper mapper)
         {
             _context = context;
+            this.mapper = mapper;
         }
 
         public async Task<T> AddAsync(T entity)
@@ -36,6 +41,23 @@ namespace entityf.Repository
         public async Task<List<T>> GetAllAsync()
         {
             return await _context.Set<T>().ToListAsync();
+        }
+
+        public async Task<PagedResult<TResult>> GetAllAsync<TResult>(QueryParameters queryParameters)
+        {
+            var totalSize = await _context.Set<T>().CountAsync();
+            var items = await _context.Set<T>()
+                .Skip(queryParameters.StartIndex)
+                .Take(queryParameters.PageSize)
+                .ProjectTo<TResult>(mapper.ConfigurationProvider)
+                .ToListAsync();
+            return new PagedResult<TResult>
+            {
+                Items = items,
+                PageNumber = queryParameters.StartIndex,
+                RecordNumber = queryParameters.PageSize,
+                TotalCount = totalSize
+            };
         }
 
         public async Task<T> GetAsync(int? id)

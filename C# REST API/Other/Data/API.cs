@@ -4,6 +4,7 @@ using CountryNamespace;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using entityf.Data;
 using entityf.Data.Configurations;
+using Microsoft.EntityFrameworkCore.Design;
 
 namespace APIContext;
 
@@ -36,5 +37,21 @@ public class API : IdentityDbContext<APIUser>
             CountryId = 2,
             Rating = 5.0
         });
+    }
+
+    public class APIDBContextFactory : IDesignTimeDbContextFactory<API>
+    {
+        public API CreateDbContext(string[] args)
+        {
+            IConfiguration config = new ConfigurationBuilder().SetBasePath(Directory
+                .GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: false)
+                .Build();
+
+            var optionsBuilder = new DbContextOptionsBuilder<API>();
+            var conn = config.GetConnectionString("API");
+            optionsBuilder.UseSqlServer(conn);
+            return new API(optionsBuilder.Options);
+        }
     }
 }
