@@ -12,6 +12,7 @@ using AutoMapper;
 using entityf.Contracts;
 using Microsoft.AspNetCore.Authorization;
 using entityf.Models;
+using Microsoft.AspNetCore.OData.Query;
 
 namespace entityf.Controllers
 {
@@ -31,6 +32,7 @@ namespace entityf.Controllers
 
         // GET: api/Countries/GetAll
         [HttpGet("GetAll")]
+        [EnableQuery] //OData =>Select=name
         public async Task<ActionResult<IEnumerable<Country>>> GetCountries()
         {
             var countries = await countriesRepository.GetAllAsync();
