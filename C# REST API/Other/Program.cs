@@ -11,6 +11,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using entityf.Middleware;
 using Microsoft.AspNetCore.OData;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,7 +26,38 @@ builder.Services.AddDbContext<API>(options =>
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options => {
+    options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+    {
+        Title = "Title",
+        Version = "v1",
+    });
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Description = "Description",
+        Name = "Name",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer"
+    });
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                },
+                Scheme = "0auth2",
+                Name = "Bearer",
+                In = ParameterLocation.Header,
+            },
+            new List<string>()
+        }
+    });
+});
 
 builder.Services.AddCors(options =>
 {

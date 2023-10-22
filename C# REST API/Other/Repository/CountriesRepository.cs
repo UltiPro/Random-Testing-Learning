@@ -15,7 +15,7 @@ namespace entityf.Repository
         public CountriesRepository(API context, IMapper mapper) : base(context, mapper)
         {
             this.context = context;
-            this.mapper = mapper
+            this.mapper = mapper;
         }
 
         public async Task<Country> GetDetails(int id)

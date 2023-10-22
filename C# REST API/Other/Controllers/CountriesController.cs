@@ -35,9 +35,8 @@ namespace entityf.Controllers
         [EnableQuery] //OData =>Select=name
         public async Task<ActionResult<IEnumerable<Country>>> GetCountries()
         {
-            var countries = await countriesRepository.GetAllAsync();
-            var records = mapper.Map<List<GetCountry>>(countries);
-            return Ok(records);
+            var countries = await countriesRepository.GetAllAsync<GetCountry>();
+            return Ok(countries);
         }
 
         // GET: api/Countries/?itedanezklasyuknow
@@ -53,15 +52,7 @@ namespace entityf.Controllers
         public async Task<ActionResult<Country>> GetCountry(int id)
         {
             var country = await countriesRepository.GetDetails(id);
-
-            if (country == null)
-            {
-                return NotFound();
-            }
-
-            var record = mapper.Map<GetCountry>(country);
-
-            return Ok(record);
+            return Ok(country);
         }
 
         // PUT: api/Countries/5
@@ -75,20 +66,9 @@ namespace entityf.Controllers
                 return BadRequest();
             }
 
-            //_context.Entry(country).State = EntityState.Modified;
-
-            var country2 = await countriesRepository.GetAsync(id);
-
-            if(country2 == null)
-            {
-                return NotFound();
-            }
-
-            mapper.Map(country, country2);
-
             try
             {
-                await countriesRepository.UpdateAsync(country2);
+                await countriesRepository.UpdateAsync(id, country);
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -116,24 +96,19 @@ namespace entityf.Controllers
             //    ShortName = country.ShortName,
             //};
 
-            var countryToCreate = mapper.Map<Country>(country);
+            //var countryToCreate = mapper.Map<Country>(country);
 
-            await countriesRepository.AddAsync(countryToCreate);
+            //await countriesRepository.AddAsync(countryToCreate);
 
-            return CreatedAtAction("GetCountry", new { id = countryToCreate.CountryId }, countryToCreate);
+            var county2 = await countriesRepository.AddAsync<CreateCountry, GetCountry>(country);
+
+            return CreatedAtAction(nameof(GetCountry), new { id = county2.Id }, county2);
         }
 
         // DELETE: api/Countries/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCountry(int id)
         {
-            var country = await countriesRepository.GetAsync(id);
-
-            if (country == null)
-            {
-                return NotFound();
-            }
-
             await countriesRepository.DeleteAsync(id);
 
             return NoContent();
